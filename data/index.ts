@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I love languages currently speak 4: Hungarian, Turkish, English and Japanese n4",
+    title: "I love languages currently speak 4: Hungarian, Turkish, English & Japanese n4",
     description: "Languages I speak:",
     className: "lg:col-span-3 md:col-span-3 md:row-span-2",
     imgClassName: "",
