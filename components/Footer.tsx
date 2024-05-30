@@ -12,9 +12,7 @@ const Footer = () => {
           Let's stay <span className="text-purple">connected</span> in the digital
           world??
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and lets discuss our ideas.
-        </p>
+        
         <a href="https://www.linkedin.com/in/alparslan-abdikoglu/">
           <MagicButton
             title="Add me on Linked in"
