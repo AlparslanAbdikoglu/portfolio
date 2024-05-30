@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -74,35 +73,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "",
-    des: "",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    title: "Coin academy",
+    des: "A gamefied website to learn about crypto",
+    img: "/bg.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "/",
   },
   {
     id: 2,
-    title: "",
-    des: ".",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "Coinbyte",
+    des: "A crypto pokedex similar from pokemon but crypto with a crypto journal",
+    img: "/bg.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
     link: "/",
   },
   {
     id: 3,
-    title: "",
-    des: ".",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Youth Budapest Organization site",
+    des: "Erasmus plus community founded by me",
+    img: "/bg.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "",
-    des: ".",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "CBD Webshop",
+    des: "A minimalist next js shop",
+    img: "/bg.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    link: "/https://lifeisnatural.hu/",
   },
 ];
 
@@ -110,29 +109,29 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "",
-    desc: ".",
+    title: "CIO Cashier Basket",
+    desc: "3+ years of experience from the university startup. Agile development, git version control.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "",
-    desc: "",
+    title: "Vice- President of foreign Affiars IDSA",
+    desc: "Within University, community management of the student organization.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "",
-    desc: ".",
+    title: "Diplomatic Intern at US Embassy Budapest",
+    desc: "assisting in the cultural events.Educational programs or exchange programs Research and Analysis, Assistance to ConsularServices, Language Support",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "",
-    desc: ".",
+    title: "Community Moderator of Kimba gang",
+    desc: "Twitch streams,  international Discord managing a big discord community.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -143,10 +142,7 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  
   {
     id: 3,
     img: "/link.svg",
