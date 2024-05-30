@@ -1,5 +1,4 @@
-import { FaLocationArrow, FaLocationDot, FaLocationPinLock } from "react-icons/fa6";
-
+import { FaLocationDot } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -9,13 +8,12 @@ const Footer = () => {
       {/* background grid */}
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Let's stay <span className="text-purple">connected</span> in the digital
-          world??
+          Let&apos;s stay <span className="text-purple">connected</span> in the digital world??
         </h1>
         
         <a href="https://www.linkedin.com/in/alparslan-abdikoglu/">
           <MagicButton
-            title="Add me on Linked in"
+            title="Add me on LinkedIn"
             icon={<FaLocationDot />}
             position="right"
           />
