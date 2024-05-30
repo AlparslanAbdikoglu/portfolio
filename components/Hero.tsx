@@ -57,8 +57,9 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-           ""Hi! That&apos;s me &#39;I&apos;m Alparslan"
-          </p>
+  &quot;Hi! That&apos;s me Alparslan&quot;
+</p>
+
 
           <a href="#about">
             <MagicButton
