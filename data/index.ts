@@ -89,11 +89,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Youth Budapest Organization site",
-    des: "Erasmus plus community founded by me",
+    title: "StixPix",
+    des: "Mobile app micro sass",
     img: "/bg.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "",
   },
   {
     id: 4,
@@ -116,22 +116,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Vice- President of foreign Affiars IDSA",
-    desc: "Within University, community management of the student organization.",
+    title: "Vice- President of foreign affairs IDSA",
+    desc: "Within University, Student organization. Vice President: PR Communications.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Diplomatic Intern at US Embassy Budapest",
-    desc: "assisting in the cultural events.Educational programs or exchange programs Research and Analysis, Assistance to ConsularServices, Language Support",
+    desc: "Assisting in the cultural events.Educational programs or exchange programs Research and Analysis, Assistance to ConsularServices, Language Support",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Community Moderator of Kimba gang",
-    desc: "Twitch streams,  international Discord managing a big discord community.",
+    desc: "Twitch streams,  international Discord managing a big discord crypto community.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
