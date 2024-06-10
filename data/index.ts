@@ -7,11 +7,14 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I study cybersecurity currently but also have deep knowledge in International Relations. Right now my aim is to be a blue team security engineer",
+    title:
+      "I study cybersecurity currently but also have deep knowledge in International Relations. Right now my aim is to be a blue team security engineer",
     description: "",
-    className: "lg:col-span-3 md:col-span-3 md:row-span-2 lg:min-h-[50vh] flex items-center justify-center", // Center content
+    className:
+      "lg:col-span-3 md:col-span-3 md:row-span-2 lg:min-h-[50vh] flex items-center justify-center", // Center content
     imgClassName: "w-full h-full",
-    titleClassName: "w-full text-justify text-center text-red-500  mt-8 text-xl md:text-2xl lg:text-3xl", // Center text horizontally and apply color
+    titleClassName:
+      "w-full text-justify text-center text-red-500  mt-8 text-xl md:text-2xl lg:text-3xl", // Center text horizontally and apply color
     img: "",
     spareImg: "",
   },
@@ -37,7 +40,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I love languages currently speak 4: Hungarian, Turkish, English & Japanese n4",
+    title:
+      "I love languages currently speak 4: Hungarian, Turkish, English & Japanese n4",
     description: "Languages I speak:",
     className: "lg:col-span-3 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -66,9 +70,18 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-
- 
 ];
+
+/**
+ * Array of project objects containing information about each project.
+ * Each object has the following properties:
+ * - id: unique identifier for the project
+ * - title: title of the project
+ * - des: short description of the project
+ * - img: file path of the project image
+ * - iconLists: array of file paths for the icons used in the project
+ * - liveSiteUrl: URL of the live site for the project
+ */
 
 export const projects = [
   {
@@ -84,27 +97,26 @@ export const projects = [
     title: "Coinbyte",
     des: "A crypto pokedex similar from pokemon but crypto with a crypto journal",
     img: "/bg.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "/",
   },
   {
     id: 3,
     title: "StixPix",
     des: "Mobile app micro sass",
-    img: "/bg.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
-    link: "",
+    img: "/stixpixbg.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    liveSiteUrl: "https://stixpix.alparslanabdik.cloud",
   },
   {
     id: 4,
     title: "CBD Webshop",
     des: "A minimalist next js shop",
     img: "/bg.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "/https://lifeisnatural.hu/",
   },
 ];
-
 
 export const workExperience = [
   {
@@ -142,7 +154,7 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
   },
-  
+
   {
     id: 3,
     img: "/link.svg",
