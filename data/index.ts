@@ -8,7 +8,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I study cybersecurity currently but also have deep knowledge in International Relations. Right now my aim is to be a blue team security engineer",
+      "I study japanese currently but also have deep knowledge in International Relations. Right now my aim is to land a job in Japan as a frontend developer.",
     description: "",
     className:
       "lg:col-span-3 md:col-span-3 md:row-span-2 lg:min-h-[50vh] flex items-center justify-center", // Center content
